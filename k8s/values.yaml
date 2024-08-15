@@ -1,0 +1,3 @@
+fernetKey: WVRCclpHSXdOMnh1UVhGT1ZHbFRPV1p3V21Wb2MxSlZVVzlqY0dwUVRHTT0
+webserverSecretKey: WVRCclpHSXdOMnh1UVhGT1ZHbFRPV1p3V21Wb2MxSlZVVzlqY0dwUVRHTT0
+executor: "KubernetesExecutor"
