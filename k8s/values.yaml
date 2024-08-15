@@ -1,3 +1,13 @@
 fernetKey: WVRCclpHSXdOMnh1UVhGT1ZHbFRPV1p3V21Wb2MxSlZVVzlqY0dwUVRHTT0
 webserverSecretKey: WVRCclpHSXdOMnh1UVhGT1ZHbFRPV1p3V21Wb2MxSlZVVzlqY0dwUVRHTT0
 executor: "KubernetesExecutor"
+
+dags:
+  gitSync:
+    enabled: true
+    repo: "https://github.com/DaniMonsalve/Kubernetes-Airflow.git"
+    brach: "master"
+    rev: HEAD
+    repth: 1
+    maxFailures: 0
+    subPath: "dags"
