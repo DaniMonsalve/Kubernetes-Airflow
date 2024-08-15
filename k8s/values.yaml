@@ -6,8 +6,8 @@ dags:
   gitSync:
     enabled: true
     repo: "https://github.com/DaniMonsalve/Kubernetes-Airflow.git"
-    brach: "master"
+    branch: "master"
     rev: HEAD
-    repth: 1
+    depth: 1
     maxFailures: 0
     subPath: "dags"
