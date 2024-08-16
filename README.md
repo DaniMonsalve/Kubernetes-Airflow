@@ -1,6 +1,6 @@
 # Configuración Personal de Kubernetes y Apache Airflow
 
-Este repositorio contiene una configuración personalizada para un entorno de ingeniería de datos utilizando Kubernetes y Apache Airflow. Este proyecto se ha basado en la estructura del repositorio [Kubernetes for Data Engineering](https://github.com/ejemplo/repo-original) para configurar el entorno, pero con ajustes y personalizaciones propias.
+Este repositorio con los archivos necesarios para configurar un entorno sencillo de ingeniería de datos usando Kubernetes y Apache Airflow. Este proyecto se ha basado en la estructura del repositorio [Kubernetes for Data Engineering]([https://github.com/ejemplo/repo-original](https://github.com/OmarAlSaghier/Kubernetes-For-DataEngineering)) para configurar el entorno, pero con ajustes y personalizaciones propias.
 
 ## Estructura del Repositorio
 
@@ -11,10 +11,10 @@ El repositorio está organizado de la siguiente manera:
                   │ ├── Extractor.py
                   │ └── Pruebas.py
                   └── k8s
-                  ├── dashboard-adminuser.yaml
-                  ├── dashboard-clusterrole.yaml
-                  ├── dashboard-secret.yaml
-                  ├── recommended-dashboard.yaml
+                  │ ├── dashboard-adminuser.yaml
+                  │ ├── dashboard-clusterrole.yaml
+                  │ ├── dashboard-secret.yaml
+                  │ ├── recommended-dashboard.yaml
                   └── values.yaml
 
 
@@ -44,7 +44,7 @@ El repositorio está organizado de la siguiente manera:
 
 1. **Desplegar el Kubernetes Dashboard:**
 
-   Para desplegar el Kubernetes Dashboard, aplica los archivos YAML en el directorio `k8s`:
+   Para desplegar el Kubernetes Dashboard, aplicar los archivos YAML en el directorio `k8s`:
 
       ```bash
       kubectl apply -f k8s/
@@ -53,7 +53,7 @@ El repositorio está organizado de la siguiente manera:
 
 2. **Acceder al Kubernetes Dashboard:**
 
-   Para acceder al Dashboard, puede que necesites iniciar un servidor proxy:
+   Para acceder al Dashboard, iniciar un servidor proxy:
 
       kubectl proxy
 
@@ -63,7 +63,7 @@ El repositorio está organizado de la siguiente manera:
 
 3. **Desplegar Apache Airflow**
 
-   Puedes desplegar Apache Airflow utilizando Helm o aplicando archivos YAML personalizados. Para Helm:
+   Desplegar Apache Airflow utilizando Helm o aplicando archivos YAML personalizados. Para Helm:
 
       ```bash
       helm repo add apache-airflow https://airflow.apache.org
@@ -72,7 +72,7 @@ El repositorio está organizado de la siguiente manera:
    Esto desplegará Airflow con la configuración definida en values.yaml.
 
 4. **Añadir DAGs a Airflow**
-   Copia tus archivos DAG (por ejemplo, Extractor.py, Pruebas.py) en la carpeta DAGs de tu despliegue de Airflow. El método de copia depende de tu configuración de Airflow (por ejemplo, utilizando Persistent Volume, Git-sync).
+   Copia los archivos DAG (por ejemplo, Extractor.py, Pruebas.py) en la carpeta DAGs de tu despliegue de Airflow. El método de copia depende de tu configuración de Airflow (por ejemplo, utilizando Persistent Volume, Git-sync).
 
 5. **Tecnologías Utilizadas**
    Kubernetes: Plataforma para automatizar la implementación, escalado y gestión de aplicaciones en contenedores.
