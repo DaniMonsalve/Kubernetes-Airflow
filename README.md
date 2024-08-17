@@ -86,3 +86,6 @@ El repositorio está organizado de la siguiente manera:
 <img width="953" alt="2024-08-17 11_27_25_3" src="https://github.com/user-attachments/assets/c6905718-2275-488d-9a68-715eaecf6cd1">
 <img width="958" alt="2024-08-17 12_09_20_4" src="https://github.com/user-attachments/assets/8d259fe3-1f83-47e0-83ea-cbaf5cb7a485">
 <img width="943" alt="2024-08-17 14_16_52-Kubernetes-Airflow_5" src="https://github.com/user-attachments/assets/a5c8f08c-3525-4ab6-9a88-b5feb1c02f7c">
+<img width="947" alt="2024-08-17 17_16_59_6" src="https://github.com/user-attachments/assets/54dd5645-d616-47c8-9f6f-d4a4f6ca85f1">
+<img width="945" alt="2024-08-17 17_18_14-hello_world - Grid - Airflow_7" src="https://github.com/user-attachments/assets/6b916ceb-a7c4-4bb3-9d25-2ade0147a7d3">
+<img width="944" alt="2024-08-17 17_19_36_8" src="https://github.com/user-attachments/assets/28bd299d-be85-475e-8bc2-d668d448fddc">
