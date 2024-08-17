@@ -81,3 +81,8 @@ El repositorio está organizado de la siguiente manera:
    API de RandomUser: Proporciona datos de prueba para el DAG Extractor.py.
 
 6. **Resultados**
+<img width="955" alt="2024-08-17 11_11_50-localhost_8001_1" src="https://github.com/user-attachments/assets/2b2ff74e-ea8c-438b-87d1-edcf54e2d606">
+<img width="960" alt="2024-08-17 11_16_53_2" src="https://github.com/user-attachments/assets/5b82e476-7c21-4d9f-9d49-7b3c850917b6">
+<img width="953" alt="2024-08-17 11_27_25_3" src="https://github.com/user-attachments/assets/c6905718-2275-488d-9a68-715eaecf6cd1">
+<img width="958" alt="2024-08-17 12_09_20_4" src="https://github.com/user-attachments/assets/8d259fe3-1f83-47e0-83ea-cbaf5cb7a485">
+<img width="943" alt="2024-08-17 14_16_52-Kubernetes-Airflow_5" src="https://github.com/user-attachments/assets/a5c8f08c-3525-4ab6-9a88-b5feb1c02f7c">
