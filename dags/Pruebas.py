@@ -19,7 +19,7 @@ default_args = {
 
 # Definición del DAG: Estructura el flujo de trabajo.
 dag = DAG(
-    'hello_world',
+    'Pruebas',
     default_args=default_args,
     schedule=timedelta(days=1)
 )
